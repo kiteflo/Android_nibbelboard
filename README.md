@@ -29,10 +29,10 @@ Have fun, Flo!
 ## Screenshots…
 
 ### Soundboard overview
-[/wiki-img/overview.png]
+![ScreenShot](/wiki-img/overview.png)
 
 ### Sound system integration
-[/wiki-img/dialog01.png]
+![ScreenShot](/wiki-img/dialog01.png)
 
 ### Sound settings
-[/wiki-img/dialog02.png]
+![ScreenShot](/wiki-img/dialog02.png)
