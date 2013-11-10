@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general labels -->
+    <string name="app_name">Meeting Sounds</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- dialogs -->
+    <string name="dialog_volume">Volume</string>
+    <string name="dialog_ringtone_title">Use sound for...</string>
+    <string name="dialog_ringtone">Ringtone</string>
+    <string name="dialog_notification">Notification</string>
+    <string name="dialog_alert">Alert</string>
+    <string name="dialog_send">Share...</string>
+    <string name="dialog_send_title">Share via:</string>
+    <!-- tabs -->
+    <string name="tab_tourette">Tourette</string>
+    <string name="tab_machete">Machete</string>
+
+    <!-- messages -->
+    <string name="ex_configureSound">Applying sound to system settings failed...</string>
+    <string name="suc_configureSound">Applied sound to system settings successfully!</string>
+    <string name="ex_shareSound">Error occured when sharing sound...</string>
+    <string name="suc_shareSound">Sound has been shared to the world :-)</string>
+
+    <!-- button labels -->
+    <string name="but_save">Save</string>
+    <string name="but_cancel">Cancel</string>
+    <string name="but_share">Share now</string>
+
+    <!-- sounds (tourette) -->
+    <string name="tourette_11">Huhu...Asshole</string>
+    <string name="tourette_12">Huhu...peng!</string>
+    <string name="tourette_13">Yahoo...böä</string>
+    <string name="tourette_21">Fuck your ass!</string>
+    <string name="tourette_22">Great jam</string>
+    <string name="tourette_23">Mrs. Fucker</string>
+    <string name="tourette_31">Get away.</string>
+    <string name="tourette_32">Commercial!</string>
+    <string name="tourette_33">Sorry...</string>
+    <string name="tourette_41">Lu Bär...</string>
+    <string name="tourette_42">Scream 1</string>
+    <string name="tourette_43">Sorry...</string>
+    <string name="tourette_51">Robbery</string>
+    <string name="tourette_52">Scream 2</string>
+    <string name="tourette_53">Xcuse me</string>
+
+</resources>

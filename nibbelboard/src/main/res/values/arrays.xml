@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dialog_ringtone_options">
+        <item>@string/dialog_ringtone</item>
+        <item>@string/dialog_notification</item>
+        <item>@string/dialog_alert</item>
+        <item>@string/dialog_send</item>
+    </string-array>
+
+
+    <string-array name="dialog_send_options">
+        <item>WhatsApp</item>
+        <item>E-Mail</item>
+    </string-array>
+</resources>

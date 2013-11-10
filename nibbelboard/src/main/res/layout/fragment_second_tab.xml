@@ -1,0 +1,208 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/ll_row21"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_211"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Huuuu...Arschloch"
+            app:sound_string="tourette01"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_212"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Huhu...peng!"
+            app:sound_string="huhu_peng"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_213"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Jahu - böäe"
+            app:sound_string="dujahu_boeae"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row22"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_221"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Arschfickerin"
+            app:sound_string="hintern"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_222"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Geile Marmelade"
+            app:sound_string="geile_marmelade"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_223"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Frau Fickerin"
+            app:sound_string="frau"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row23"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_231"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Abziehen"
+            app:sound_string="abziehen"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_232"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Werbung"
+            app:sound_string="aus_werbung"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_233"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Keine Absicht"
+            app:sound_string="keine_absicht"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_row24"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_241"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Lu Bär"
+            app:sound_string="lu_baer"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_242"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Schrei"
+            app:sound_string="schrei"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+            android:id="@+id/frag_243"
+            android:layout_weight="1"
+            app:image_string="psychiatry"
+            app:button_label="Keine Absicht"
+            app:sound_string="keine_absicht01"
+            />
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/ll_row25"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        >
+
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButtonButton"
+            android:id="@+id/frag_51"
+            android:layout_weight="1"
+            app:image_string="tourette_psychiatry"
+            app:button_label="Überfall"
+            app:sound_string="tourette_ueberfall"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButtonButton"
+            android:id="@+id/frag_52"
+            android:layout_weight="1"
+            app:image_string="tourette_psychiatry"
+            app:button_label="Schrei"
+            app:sound_string="tourette_schrei"
+            />
+        <fragment
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButtonButton"
+            android:id="@+id/frag_53"
+            android:layout_weight="1"
+            app:image_string="tourette_psychiatry"
+            app:button_label="Keine Absicht"
+            app:sound_string="tourette_keine_absicht01"
+            />
+    </LinearLayout>-->
+
+</LinearLayout>

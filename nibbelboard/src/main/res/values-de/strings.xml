@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- general labels -->
+    <string name="app_name">Meeting Sounds</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- dialogs -->
+    <string name="dialog_volume">Lautstärke</string>
+    <string name="dialog_ringtone_title">Sound verwenden für...</string>
+    <string name="dialog_ringtone">Klingelton</string>
+    <string name="dialog_notification">Nachricht</string>
+    <string name="dialog_alert">Alarm</string>
+    <string name="dialog_send">Teilen...</string>
+    <string name="dialog_send_title">Teilen via:</string>
+
+    <!-- tabs -->
+    <string name="tab_tourette">Tourette</string>
+    <string name="tab_machete">Machete</string>
+
+    <!-- messages -->
+    <string name="ex_configureSound">Fehler beim Konfigurieren der Sound Settings...</string>
+    <string name="suc_configureSound">Sound wurde in den Einstellungen gesetzt :-)</string>
+    <string name="ex_shareSound">Fehler beim Teilen des Sounds...</string>
+    <string name="suc_shareSound">Sound wurde in der Welt verbreitet :-)</string>
+
+    <!-- button labels -->
+    <string name="but_save">Speichern</string>
+    <string name="but_cancel">Abbrechen</string>
+    <string name="but_share">Jetzt teilen</string>
+
+    <!-- sounds (tourette) -->
+    <string name="tourette_11">Du...Arschloch</string>
+    <string name="tourette_12">Huhu...peng!</string>
+    <string name="tourette_13">Yahoo...böä</string>
+    <string name="tourette_21">Du Arschfickerin!</string>
+    <string name="tourette_22">Geile Marmelade</string>
+    <string name="tourette_23">Frau Fickerin</string>
+    <string name="tourette_31">Zieh mal ab...</string>
+    <string name="tourette_32">Aus unserer Werbung</string>
+    <string name="tourette_33">Keine Absicht - Sie wissen Bescheid</string>
+    <string name="tourette_41">Lu Bär...</string>
+    <string name="tourette_42">Schrei 1</string>
+    <string name="tourette_43">Keine Absicht</string>
+    <string name="tourette_51">Ü..Überfall</string>
+    <string name="tourette_52">Schrei 2</string>
+    <string name="tourette_53">Keine Absicht</string>
+
+</resources>

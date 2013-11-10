@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FragmentSquareButton">
+        <attr name="image_string" format="string"/>
+        <attr name="button_label" format="string"/>
+        <attr name="sound_string" format="string"/>
+        <attr name="demo_integer" format="integer"/>
+    </declare-styleable>
+</resources>
