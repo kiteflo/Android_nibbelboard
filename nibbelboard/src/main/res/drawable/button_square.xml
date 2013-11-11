@@ -1,6 +1,7 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/app_square_pressed"
         android:state_pressed="true"/>
-    <item android:drawable="@drawable/app_square"
-        android:state_pressed="false"/>
+    <item android:drawable="@drawable/app_square_pressed"
+          android:state_focused="true" />
+    <item android:drawable="@drawable/app_square"/>
 </selector>

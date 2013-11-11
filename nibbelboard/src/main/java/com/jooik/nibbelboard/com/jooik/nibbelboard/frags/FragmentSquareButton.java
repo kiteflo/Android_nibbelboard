@@ -154,6 +154,10 @@ public class FragmentSquareButton extends Fragment
     // inner classes
     // ------------------------------------------------------------------------
 
+    /**
+     * Custom gesture listener in order to handle "long press" event...long press
+     * will result in displaying a dialog menu.
+     */
     private class GestureListener extends GestureDetector.SimpleOnGestureListener
     {
         @Override
@@ -173,6 +177,8 @@ public class FragmentSquareButton extends Fragment
         @Override
         public boolean onSingleTapUp(MotionEvent e)
         {
+            super.onSingleTapUp(e);
+
             // play sound
             // Getting the user sound settings
             AudioManager audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
