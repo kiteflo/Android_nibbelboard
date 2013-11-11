@@ -20,10 +20,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.jooik.nibbelboard.MainActivity;
 import com.jooik.nibbelboard.R;
+import com.jooik.nibbelboard.com.jooik.nibbelboard.domain.SoundHolder;
 
 /**
- * Created by tzhmufl2 on 06.11.13.
+ * Fragemnet counter part for square button. Some important fragment magic is
+ * performed within this class, for example XML fragment attributes are transformed
+ * to class properties directly...have a cloaser look!
  */
 public class FragmentSquareButton extends Fragment
 {
@@ -32,13 +36,10 @@ public class FragmentSquareButton extends Fragment
     // ------------------------------------------------------------------------
 
     private View view = null;
-    private String imageSource = null;
-    private String buttonLabel = null;
+    private SoundHolder soundHolder = new SoundHolder();
 
     private SoundPool soundPool = null;
-    private String sound = null;
-    private int soundID;
-    boolean loaded = false;
+    private boolean loaded = false;
 
     // ------------------------------------------------------------------------
     // public usage
@@ -50,22 +51,22 @@ public class FragmentSquareButton extends Fragment
         view =  inflater.inflate(R.layout.fragment_button, container, false);
 
         // fetch image component and apply icon...
-        if (imageSource != null)
+        if (soundHolder.getSoundImageFile() != null)
         {
             ImageView iv = (ImageView)view.findViewById(R.id.iv_icon);
 
             Resources res = getActivity().getResources();
-            int resID = res.getIdentifier(imageSource, "drawable", getActivity().getPackageName());
+            int resID = res.getIdentifier(soundHolder.getSoundImageFile(), "drawable", getActivity().getPackageName());
             iv.setImageResource(resID);
         }
 
-        if (buttonLabel != null)
+        if (soundHolder.getSoundLabel() != null)
         {
             TextView label = (TextView)view.findViewById(R.id.tv_buttonlabel);
-            label.setText(buttonLabel);
+            label.setText(soundHolder.getSoundLabel());
         }
 
-        if (sound != null)
+        if (soundHolder.getSoundFile() != null)
         {
             // initialize sound pool
             if (soundPool == null)
@@ -79,33 +80,75 @@ public class FragmentSquareButton extends Fragment
                     }
                 });
                 Resources res = getActivity().getResources();
-                int resID = res.getIdentifier(sound, "raw", getActivity().getPackageName());
+                int resID = res.getIdentifier(soundHolder.getSoundFile(), "raw", getActivity().getPackageName());
                 try
                 {
-                    soundID = soundPool.load(getActivity().getApplicationContext(),resID, 1);
+                    soundHolder.setSoundID(soundPool.load(getActivity().getApplicationContext(),resID, 1));
                 }
                 catch (Resources.NotFoundException ex)
                 {
                     // set sound to default sound...
                     // TODO: shift default sound to configuration file....
                     resID = res.getIdentifier("tourette_tourette01", "raw", getActivity().getPackageName());
-                    soundID = soundPool.load(getActivity().getApplicationContext(),resID, 1);
+                    soundHolder.setSoundID(soundPool.load(getActivity().getApplicationContext(),resID, 1));
                 }
             }
 
             LinearLayout box = (LinearLayout)view.findViewById(R.id.ll_box);
 
             // add long touch support
-            final GestureDetector gdt = new GestureDetector(new GestureListener());
+            final GestureDetector gdt = new GestureDetector(getActivity(),new GestureDetector.SimpleOnGestureListener()
+            {
+                @Override
+                public void onLongPress(MotionEvent e)
+                {
+                    // get the currently selected sound URI
+                    int rawIdSoundFile = getActivity().getResources().getIdentifier(soundHolder.getSoundFile(), "raw", getActivity().getPackageName());
+
+                    FragmentManager fm = getActivity().getSupportFragmentManager();
+                    FragmentRingtone fr = new FragmentRingtone();
+                    fr.setRawSound(rawIdSoundFile);
+                    fr.setRawSoundLabel(soundHolder.getSoundLabel());
+                    fr.setRawSoundFilename(soundHolder.getSoundFile());
+                    fr.show(fm,"fragment_dialog_ringtone");
+                }
+
+                @Override
+                public boolean onSingleTapConfirmed(MotionEvent e)
+                {
+                    // play sound
+                    // Getting the user sound settings
+                    AudioManager audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
+                    float volume = (float) audioManager
+                            .getStreamVolume(AudioManager.STREAM_SYSTEM);
+                    // Is the sound loaded already?
+                    if (loaded)
+                    {
+                        soundPool.play(soundHolder.getSoundID(), volume, volume, 1, 0, 1f);
+                    }
+
+                    return true;
+                }
+            });
+
             box.setOnTouchListener(new View.OnTouchListener()
             {
                 @Override
                 public boolean onTouch(View v, MotionEvent event)
                 {
-                    gdt.onTouchEvent(event);
-                    return true;
+                    boolean retVal =  gdt.onTouchEvent(event);
+
+                    // notify MainActivity about event - handle delection etc.
+                    MainActivity mainActivity = (MainActivity)getActivity();
+                    mainActivity.onPressSquareButton(view,soundHolder);
+
+                    view.setSelected(true);
+
+                    return retVal;
+
                 }
             });
+
         }
 
         return view;
@@ -130,15 +173,15 @@ public class FragmentSquareButton extends Fragment
         // read and apply strings....
         CharSequence passedInString = a.getText(R.styleable.FragmentSquareButton_image_string);
         if(passedInString != null) {
-            imageSource = passedInString.toString();
+            soundHolder.setSoundImageFile(passedInString.toString());
         }
         passedInString = a.getText(R.styleable.FragmentSquareButton_button_label);
         if(passedInString != null) {
-            buttonLabel = passedInString.toString();
+            soundHolder.setSoundLabel(passedInString.toString());
         }
         passedInString = a.getText(R.styleable.FragmentSquareButton_sound_string);
         if(passedInString != null) {
-            sound = passedInString.toString();
+            soundHolder.setSoundFile(passedInString.toString());
         }
 
         // read and apply integer values...currently used for demo log statements only
@@ -151,61 +194,8 @@ public class FragmentSquareButton extends Fragment
     }
 
     // ------------------------------------------------------------------------
-    // inner classes
-    // ------------------------------------------------------------------------
-
-    /**
-     * Custom gesture listener in order to handle "long press" event...long press
-     * will result in displaying a dialog menu.
-     */
-    private class GestureListener extends GestureDetector.SimpleOnGestureListener
-    {
-        @Override
-        public void onLongPress(MotionEvent e)
-        {
-            // get the currently selected sound URI
-            int rawIdSoundFile = getActivity().getResources().getIdentifier(sound, "raw", getActivity().getPackageName());
-
-            FragmentManager fm = getActivity().getSupportFragmentManager();
-            FragmentRingtone fr = new FragmentRingtone();
-            fr.setRawSound(rawIdSoundFile);
-            fr.setRawSoundLabel(buttonLabel);
-            fr.setRawSoundFilename(sound);
-            fr.show(fm,"fragment_dialog_ringtone");
-        }
-
-        @Override
-        public boolean onSingleTapUp(MotionEvent e)
-        {
-            super.onSingleTapUp(e);
-
-            // play sound
-            // Getting the user sound settings
-            AudioManager audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
-            float volume = (float) audioManager
-                    .getStreamVolume(AudioManager.STREAM_SYSTEM);
-            // Is the sound loaded already?
-            if (loaded)
-            {
-                soundPool.play(soundID, volume, volume, 1, 0, 1f);
-                Log.e("Test", "Played sound");
-            }
-            return true;
-        }
-    }
-
-
-    // ------------------------------------------------------------------------
     // GETTER & SETTER
     // ------------------------------------------------------------------------
 
-    public String getImageSource()
-    {
-        return imageSource;
-    }
 
-    public void setImageSource(String imageSource)
-    {
-        this.imageSource = imageSource;
-    }
 }

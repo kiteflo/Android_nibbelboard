@@ -92,7 +92,10 @@ public class FragmentRingtone extends DialogFragment
                 });
 
         builder.setIcon(R.drawable.ic_ringtone);
-        return builder.create();
+        Dialog dialog = builder.create();
+        dialog.setCanceledOnTouchOutside(true);
+
+        return dialog;
     }
 
     /**

@@ -20,7 +20,7 @@
 
     <!-- messages -->
     <string name="ex_configureSound">Fehler beim Konfigurieren der Sound Settings...</string>
-    <string name="suc_configureSound">Sound wurde in den Einstellungen gesetzt :-)</string>
+    <string name="suc_configureSound">Sound wurde in den Einstellungen gesetzt</string>
     <string name="ex_shareSound">Fehler beim Teilen des Sounds...</string>
     <string name="suc_shareSound">Sound wurde in der Welt verbreitet :-)</string>
 

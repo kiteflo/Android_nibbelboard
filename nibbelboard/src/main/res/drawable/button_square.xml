@@ -2,6 +2,6 @@
     <item android:drawable="@drawable/app_square_pressed"
         android:state_pressed="true"/>
     <item android:drawable="@drawable/app_square_pressed"
-          android:state_focused="true" />
+          android:state_selected="true" />
     <item android:drawable="@drawable/app_square"/>
 </selector>

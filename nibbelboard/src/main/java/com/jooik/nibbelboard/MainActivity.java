@@ -6,11 +6,15 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
+import com.jooik.nibbelboard.com.jooik.nibbelboard.domain.SoundHolder;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentFirstTab;
+import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentRingtone;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSecondTab;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentVolume;
 
@@ -22,6 +26,13 @@ public class MainActivity extends ActionBarActivity
 
     private SectionsPagerAdapter sectionsPagerAdapter;
     private ViewPager viewPager;
+
+    // ------------------------------------------------------------------------
+    // pseudo model stuff....
+    // ------------------------------------------------------------------------
+
+    private View currentlySelectedButton;
+    private SoundHolder soundHolder;
 
     // ------------------------------------------------------------------------
     // public usage
@@ -65,6 +76,47 @@ public class MainActivity extends ActionBarActivity
 
         return super.onOptionsItemSelected(item);
     }
+
+    /**
+     * Deselct current square...
+     * @param view
+     */
+    public void onPressSquareButton(View view,SoundHolder soundHolder)
+    {
+        if (currentlySelectedButton != null)
+        {
+            currentlySelectedButton.setSelected(false);
+        }
+
+        this.soundHolder = soundHolder;
+        currentlySelectedButton = view;
+    }
+
+    @Override
+    public boolean onKeyDown(int keycode, KeyEvent e)
+    {
+        switch(keycode) {
+            case KeyEvent.KEYCODE_MENU:
+
+                if (currentlySelectedButton != null)
+                {
+                    // display sound settings dialog...
+                    int rawIdSoundFile = getResources().getIdentifier(soundHolder.getSoundFile(), "raw", getPackageName());
+
+                    FragmentManager fm = getSupportFragmentManager();
+                    FragmentRingtone fr = new FragmentRingtone();
+                    fr.setRawSound(rawIdSoundFile);
+                    fr.setRawSoundLabel(soundHolder.getSoundLabel());
+                    fr.setRawSoundFilename(soundHolder.getSoundFile());
+                    fr.show(fm,"fragment_dialog_ringtone");
+
+                    return true;
+                }
+        }
+
+        return super.onKeyDown(keycode, e);
+    }
+
 
     // ------------------------------------------------------------------------
     // inner classes
