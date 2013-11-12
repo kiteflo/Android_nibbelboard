@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.media.AudioManager;
-import android.media.SoundPool;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -38,8 +38,7 @@ public class FragmentSquareButton extends Fragment
     private View view = null;
     private SoundHolder soundHolder = new SoundHolder();
 
-    private SoundPool soundPool = null;
-    private boolean loaded = false;
+    private MediaPlayer mediaPlayer = new MediaPlayer();
 
     // ------------------------------------------------------------------------
     // public usage
@@ -68,30 +67,16 @@ public class FragmentSquareButton extends Fragment
 
         if (soundHolder.getSoundFile() != null)
         {
-            // initialize sound pool
-            if (soundPool == null)
+            Resources res = getActivity().getResources();
+            final int resID = res.getIdentifier(soundHolder.getSoundFile(), "raw", getActivity().getPackageName());
+
+            try
             {
-                soundPool = new SoundPool(10, AudioManager.STREAM_SYSTEM, 0);
-                soundPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
-                    @Override
-                    public void onLoadComplete(SoundPool soundPool, int sampleId,
-                                               int status) {
-                        loaded = true;
-                    }
-                });
-                Resources res = getActivity().getResources();
-                int resID = res.getIdentifier(soundHolder.getSoundFile(), "raw", getActivity().getPackageName());
-                try
-                {
-                    soundHolder.setSoundID(soundPool.load(getActivity().getApplicationContext(),resID, 1));
-                }
-                catch (Resources.NotFoundException ex)
-                {
-                    // set sound to default sound...
-                    // TODO: shift default sound to configuration file....
-                    resID = res.getIdentifier("tourette_tourette01", "raw", getActivity().getPackageName());
-                    soundHolder.setSoundID(soundPool.load(getActivity().getApplicationContext(),resID, 1));
-                }
+                mediaPlayer = MediaPlayer.create(getActivity(),resID);
+            }
+            catch (Exception ex)
+            {
+                ex.printStackTrace();
             }
 
             LinearLayout box = (LinearLayout)view.findViewById(R.id.ll_box);
@@ -116,15 +101,21 @@ public class FragmentSquareButton extends Fragment
                 @Override
                 public boolean onSingleTapConfirmed(MotionEvent e)
                 {
-                    // play sound
-                    // Getting the user sound settings
-                    AudioManager audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
-                    float volume = (float) audioManager
-                            .getStreamVolume(AudioManager.STREAM_SYSTEM);
-                    // Is the sound loaded already?
-                    if (loaded)
+                    if (mediaPlayer.isPlaying())
                     {
-                        soundPool.play(soundHolder.getSoundID(), volume, volume, 1, 0, 1f);
+                        mediaPlayer.stop();
+                        mediaPlayer = MediaPlayer.create(getActivity(),resID);
+                    }
+                    else
+                    {
+                        // play sound
+                        // Getting the user sound settings
+                        AudioManager audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
+                        float volume = (float) audioManager
+                                .getStreamVolume(AudioManager.STREAM_MUSIC);
+
+                        mediaPlayer.setVolume(volume,volume);
+                        mediaPlayer.start();
                     }
 
                     return true;
