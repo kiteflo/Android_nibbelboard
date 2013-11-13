@@ -31,7 +31,7 @@ public class FragmentThirdTab extends Fragment
 
         if (view == null)
         {
-            view = inflater.inflate(R.layout.fragment_machete_tab,container,false);
+            view = inflater.inflate(R.layout.fragment_borat_tab,container,false);
 
             // Lets do some magic in order to have so called "app_square buttons":
             // use dynamic width of a button (width is determined by device,
@@ -52,7 +52,7 @@ public class FragmentThirdTab extends Fragment
                     applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row22));
                     applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row23));
                     applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row24));
-                    // applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row25));
+                    applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row25));
                 }
             });
         }

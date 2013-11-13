@@ -12,103 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818d8ff6-59a8-4923-9bc5-324660f82f62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/app_impressum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/app_impressum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/app_impressum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/app_impressum.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_entryplease.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_iarrive.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/borat_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/borat_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/borat_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/borat_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_kinginthecastle.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_mynameaborat.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_thisamycountry.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_watchladies.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_airforce_one_hijacked.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_almost_9_got_to_go_towork.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_applepie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_applepie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_applepie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_applepie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_beautiful_friendship.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_bluesbrothers.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_bluesbrothers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_bluesbrothers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_bluesbrothers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_bluesbrothers.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_borat_number4.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_borat_sister.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_borat_sister.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_borat_sister.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_borat_sister.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_chocolate_box.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_clock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_dont_look_at_me.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_failure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_failure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_failure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_failure.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_failure_is_not_an_option.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_forrest_chocolate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_forrest_chocolate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_forrest_chocolate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_forrest_chocolate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_forrest_gump.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_gentlemen_privilege_2_fly_with_you.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_honor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_honor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_honor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_honor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_houston_problem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_houston_problem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_houston_problem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_houston_problem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_houston_we_have_a_problem.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_independence_day.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_independence_day.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_independence_day.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_independence_day.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_independenceday.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_jurassicpark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_jurassicpark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_jurassicpark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_jurassicpark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_like_a_warm_applepie.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_piss_on_grave.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/movies_plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/movies_plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/movies_plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/movies_plane.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_schoolboy.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/movies_welcome.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/piss_on_grave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/piss_on_grave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/piss_on_grave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/piss_on_grave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentImpressum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_tourette_tab.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_first_tab.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_movie_tab.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_second_tab.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_machete_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSecondTab.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSecondTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentVolume.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentVolume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/MainActivity.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/menu/actionbar.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/menu/actionbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_volume.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_volume.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi/app_square_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi/app_square_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi/app_square_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi/app_square_selected.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_anusbroken.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_beautiful.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_eatmytits.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_fivewoman.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_howdypartners.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_iwilleatyour.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_letsgetdrunk.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_uzbekistan.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/raw/borat_vanillaface.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_machete_tab.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_borat_tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java" afterPath="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml" afterPath="$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -253,7 +174,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="37" selection-start="4466" selection-end="4466" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1515">
+            <state line="91" column="54" selection-start="3985" selection-end="5294" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1515">
               <folding />
             </state>
           </provider>
@@ -262,19 +183,40 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="48" selection-start="4022" selection-end="4022" vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1500">
+            <state line="91" column="54" selection-start="5067" selection-end="5067" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_machete_tab.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_machete_tab.xml">
+      <file leaf-file-name="FragmentThirdTab.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="20" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_dialog_impressum.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="50" selection-start="4024" selection-end="4024" vertical-scroll-proportion="0.8486239" vertical-offset="810" max-vertical-offset="2715">
+            <state line="19" column="32" selection-start="683" selection-end="683" vertical-scroll-proportion="-7.0" vertical-offset="96" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_borat_tab.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_borat_tab.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="187" column="15" selection-start="8001" selection-end="8001" vertical-scroll-proportion="-18.814816" vertical-offset="2297" max-vertical-offset="3300">
               <folding>
                 <element signature="e#496#531#0" expanded="true" />
                 <element signature="e#561#596#0" expanded="true" />
@@ -285,30 +227,16 @@
                 <element signature="e#2334#2352#0" expanded="true" />
                 <element signature="e#3053#3071#0" expanded="true" />
                 <element signature="e#3526#3544#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentImpressum.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentImpressum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="16" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-              <folding>
-                <element signature="e#1387#1887#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <folding>
-                <element signature="e#415#433#0" expanded="true" />
-                <element signature="e#582#600#0" expanded="true" />
+                <element signature="e#4007#4025#0" expanded="true" />
+                <element signature="e#4726#4744#0" expanded="true" />
+                <element signature="e#5201#5219#0" expanded="true" />
+                <element signature="e#5676#5694#0" expanded="true" />
+                <element signature="e#6393#6411#0" expanded="true" />
+                <element signature="e#6871#6889#0" expanded="true" />
+                <element signature="e#7347#7365#0" expanded="true" />
+                <element signature="e#8065#8083#0" expanded="true" />
+                <element signature="e#8544#8562#0" expanded="true" />
+                <element signature="e#9021#9039#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -317,40 +245,37 @@
       <file leaf-file-name="FragmentSquareButton.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="74" selection-start="4612" selection-end="4612" vertical-scroll-proportion="0.0" vertical-offset="1103" max-vertical-offset="2625">
-              <folding>
-                <element signature="e#4849#5405#0" expanded="true" />
-                <element signature="e#5390#5391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentVolume.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentVolume.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="70" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1215">
+            <state line="64" column="55" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="2550">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_dialog_volume.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_volume.xml">
+      <file leaf-file-name="fragment_button.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="38" selection-start="278" selection-end="278" vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="255">
+            <state line="24" column="15" selection-start="876" selection-end="876" vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="654">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentRingtone.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentRingtone.java">
+      <file leaf-file-name="button_square.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="53" selection-start="4942" selection-end="4987" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="3075">
+            <state line="3" column="57" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentFirstTab.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -727,22 +652,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_tourette_tab.xml" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSecondTab.java" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_movie_tab.xml" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/res/menu/actionbar.xml" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentImpressum.java" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/MainActivity.java" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentVolume.java" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_volume.xml" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml" />
         <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_machete_tab.xml" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml" />
+        <option value="$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml" />
       </list>
     </option>
   </component>
@@ -1002,6 +927,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nibbelboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nibbelboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nibbelboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1148,10 +1103,11 @@
       <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-mdpi" />
       <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-hdpi" />
+      <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/nibbelboard/src/main/res/drawable-xxhdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.nibbelboard-nibbelboard">
@@ -1349,7 +1305,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1376,50 +1332,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/menu/actionbar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="545" selection-end="603" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="632" selection-end="632" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="750">
-          <folding>
-            <element signature="e#377#398#0" expanded="true" />
-            <element signature="e#524#545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSecondTab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="1095">
@@ -1454,16 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="74" selection-start="4612" selection-end="4612" vertical-scroll-proportion="0.0" vertical-offset="1103" max-vertical-offset="2625">
-          <folding>
-            <element signature="e#4849#5405#0" expanded="true" />
-            <element signature="e#5390#5391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentVolume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="70" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="1215">
@@ -1492,26 +1394,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="48" selection-start="4022" selection-end="4022" vertical-scroll-proportion="0.0" vertical-offset="819" max-vertical-offset="1500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/values-de/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="37" selection-start="4466" selection-end="4466" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1515">
+        <state line="91" column="54" selection-start="3985" selection-end="5294" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1515">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_machete_tab.xml">
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="54" selection-start="5067" selection-end="5067" vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentThirdTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="20" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_dialog_impressum.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="50" selection-start="4024" selection-end="4024" vertical-scroll-proportion="0.8486239" vertical-offset="810" max-vertical-offset="2715">
+        <state line="19" column="32" selection-start="683" selection-end="683" vertical-scroll-proportion="-7.0" vertical-offset="96" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_borat_tab.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="15" selection-start="8001" selection-end="8001" vertical-scroll-proportion="-18.814816" vertical-offset="2297" max-vertical-offset="3300">
           <folding>
             <element signature="e#496#531#0" expanded="true" />
             <element signature="e#561#596#0" expanded="true" />
@@ -1522,7 +1441,48 @@
             <element signature="e#2334#2352#0" expanded="true" />
             <element signature="e#3053#3071#0" expanded="true" />
             <element signature="e#3526#3544#0" expanded="true" />
+            <element signature="e#4007#4025#0" expanded="true" />
+            <element signature="e#4726#4744#0" expanded="true" />
+            <element signature="e#5201#5219#0" expanded="true" />
+            <element signature="e#5676#5694#0" expanded="true" />
+            <element signature="e#6393#6411#0" expanded="true" />
+            <element signature="e#6871#6889#0" expanded="true" />
+            <element signature="e#7347#7365#0" expanded="true" />
+            <element signature="e#8065#8083#0" expanded="true" />
+            <element signature="e#8544#8562#0" expanded="true" />
+            <element signature="e#9021#9039#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentFirstTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/java/com/jooik/nibbelboard/com/jooik/nibbelboard/frags/FragmentSquareButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="55" selection-start="2441" selection-end="2441" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/drawable/button_square.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="57" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nibbelboard/src/main/res/layout/fragment_button.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="15" selection-start="876" selection-end="876" vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="654">
+          <folding />
         </state>
       </provider>
     </entry>

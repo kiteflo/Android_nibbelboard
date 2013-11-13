@@ -107,9 +107,9 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_231"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Abziehen"
-                app:sound_string="abziehen"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_31"
+                app:sound_string="borat_beautiful"
                 />
             <fragment
                 android:layout_height="wrap_content"
@@ -117,9 +117,9 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_232"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Werbung"
-                app:sound_string="aus_werbung"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_32"
+                app:sound_string="borat_fivewoman"
                 />
             <fragment
                 android:layout_height="wrap_content"
@@ -127,9 +127,9 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_233"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Keine Absicht"
-                app:sound_string="keine_absicht"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_33"
+                app:sound_string="borat_eatmytits"
                 />
         </LinearLayout>
 
@@ -146,9 +146,9 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_241"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Lu Bär"
-                app:sound_string="lu_baer"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_41"
+                app:sound_string="borat_iwilleatyour"
                 />
             <fragment
                 android:layout_height="wrap_content"
@@ -156,9 +156,9 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_242"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Schrei"
-                app:sound_string="schrei"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_42"
+                app:sound_string="borat_uzbekistan"
                 />
             <fragment
                 android:layout_height="wrap_content"
@@ -166,9 +166,48 @@
                 class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
                 android:id="@+id/frag_243"
                 android:layout_weight="1"
-                app:image_string="psychiatry"
-                app:button_label="Keine Absicht"
-                app:sound_string="keine_absicht01"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_43"
+                app:sound_string="borat_anusbroken"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_row25"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            >
+
+            <fragment
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+                android:id="@+id/frag_251"
+                android:layout_weight="1"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_51"
+                app:sound_string="borat_howdypartners"
+                />
+            <fragment
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+                android:id="@+id/frag_252"
+                android:layout_weight="1"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_52"
+                app:sound_string="borat_vanillaface"
+                />
+            <fragment
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                class="com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSquareButton"
+                android:id="@+id/frag_253"
+                android:layout_weight="1"
+                app:image_string="borat_icon"
+                app:button_label="@string/borat_53"
+                app:sound_string="borat_letsgetdrunk"
                 />
         </LinearLayout>
 
