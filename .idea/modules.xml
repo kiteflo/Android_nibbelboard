@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_nibbelboard.iml" filepath="$PROJECT_DIR$/android_nibbelboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/nibbelboard.iml" filepath="$PROJECT_DIR$/nibbelboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/nibbelboard/nibbelboard-nibbelboard.iml" filepath="$PROJECT_DIR$/nibbelboard/nibbelboard-nibbelboard.iml" />
     </modules>

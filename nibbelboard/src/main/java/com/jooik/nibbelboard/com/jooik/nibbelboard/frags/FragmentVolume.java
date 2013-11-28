@@ -44,8 +44,8 @@ public class FragmentVolume extends DialogFragment
             audioManager = (AudioManager)getActivity().getSystemService(Context.AUDIO_SERVICE);
         }
 
-        float volume = audioManager.getStreamVolume(AudioManager.STREAM_SYSTEM);
-        float maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_SYSTEM);
+        float volume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
+        float maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
 
         SeekBar seekBar = (SeekBar)view.findViewById(R.id.seekBar);
         seekBar.setMax(new Float(maxVolume).intValue());
@@ -69,7 +69,7 @@ public class FragmentVolume extends DialogFragment
             public void onStopTrackingTouch(SeekBar seekBar)
             {
                 // apply value to system...
-                audioManager.setStreamVolume(AudioManager.STREAM_SYSTEM,seekBar.getProgress(),
+                audioManager.setStreamVolume(AudioManager.STREAM_MUSIC,seekBar.getProgress(),
                         AudioManager.FLAG_PLAY_SOUND);
 
                 // display current volume...

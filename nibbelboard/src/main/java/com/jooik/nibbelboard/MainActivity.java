@@ -14,8 +14,10 @@ import android.view.View;
 
 import com.jooik.nibbelboard.com.jooik.nibbelboard.domain.SoundHolder;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentFirstTab;
+import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentImpressum;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentRingtone;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentSecondTab;
+import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentThirdTab;
 import com.jooik.nibbelboard.com.jooik.nibbelboard.frags.FragmentVolume;
 
 public class MainActivity extends ActionBarActivity
@@ -71,6 +73,15 @@ public class MainActivity extends ActionBarActivity
                 FragmentManager fm = getSupportFragmentManager();
                 FragmentVolume fv = new FragmentVolume();
                 fv.show(fm,"fragment_dialog_volume");
+                break;
+            }
+            case R.id.action_impressum:
+            {
+                // display volume fragment
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentImpressum fi = new FragmentImpressum();
+                fi.show(fm,"fragment_dialog_impressum");
+                break;
             }
         }
 
@@ -140,10 +151,16 @@ public class MainActivity extends ActionBarActivity
                 FragmentFirstTab fft = new FragmentFirstTab();
                 return fft;
             }
-            else if (position == 1)
+            if (position == 1)
             {
                 // find first fragment...
-                FragmentSecondTab fst = new FragmentSecondTab();
+                FragmentSecondTab fft = new FragmentSecondTab();
+                return fft;
+            }
+            else if (position == 2)
+            {
+                // find first fragment...
+                FragmentThirdTab fst = new FragmentThirdTab();
                 return fst;
             }
 
@@ -153,16 +170,18 @@ public class MainActivity extends ActionBarActivity
         @Override
         public int getCount() {
             // Show 2 total pages.
-            return 2;
+            return 3;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return getString(R.string.tab_tourette);
+                    return getString(R.string.tab_movies);
                 case 1:
-                    return getString(R.string.tab_machete);
+                    return getString(R.string.tab_tourette);
+                case 2:
+                    return getString(R.string.tab_borat);
             }
             return null;
         }

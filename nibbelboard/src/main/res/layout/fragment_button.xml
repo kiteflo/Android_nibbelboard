@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center_horizontal"
         android:src="@drawable/app_daycare" />
-
     <TextView
         android:id="@+id/tv_buttonlabel"
         android:layout_width="fill_parent"

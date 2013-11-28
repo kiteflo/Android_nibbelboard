@@ -13,9 +13,11 @@
     <string name="dialog_alert">Alert</string>
     <string name="dialog_send">Share...</string>
     <string name="dialog_send_title">Share via:</string>
+
     <!-- tabs -->
+    <string name="tab_movies">Movies</string>
     <string name="tab_tourette">Tourette</string>
-    <string name="tab_machete">Machete</string>
+    <string name="tab_borat">Borat</string>
 
     <!-- messages -->
     <string name="ex_configureSound">Applying sound to system settings failed...</string>
@@ -27,6 +29,33 @@
     <string name="but_save">Save</string>
     <string name="but_cancel">Cancel</string>
     <string name="but_share">Share now</string>
+
+    <!-- admin stuff -->
+    <string name="impressum_1">This app has been created as an Android evaluation project. All sounds,
+    texts and other contents have been tied in via public web sources which explicitly provided a
+    free usage and non copyright violation agreement. Anyway, we can not guarantee copyright for these
+    sources, in case you should come across any abuse please simply send me a tweet and we will
+    check contents of the corresponding source.</string>
+    <string name="impressum_2">All icons used withinb this app have officially been purchased via
+    \'designshock.com\'</string>
+
+    <!-- sounds (movies) -->
+    <string name="movies_11">Airforce One has been hijacked</string>
+    <string name="movies_12">Almost 9 o\'clock....time to work</string>
+    <string name="movies_13">Laurie...this is the beginning of a beautiful friendship</string>
+    <string name="movies_21">Blues Brothers</string>
+    <string name="movies_22">My sister is #4 prostitute</string>
+    <string name="movies_23">My Mom always said...</string>
+    <string name="movies_31">My name is Forrest...</string>
+    <string name="movies_32">Failure is not an option</string>
+    <string name="movies_33">Gentlemen, it\'s been a privilege flying with you</string>
+    <string name="movies_41">Houston...we got a problem</string>
+    <string name="movies_42">Today is independence day!</string>
+    <string name="movies_43">Welcome to Jurassic Park</string>
+    <string name="movies_51">Feels like warm apple pie</string>
+    <string name="movies_52">Desperate love to school boy</string>
+    <string name="movies_53">Piss on your grave</string>
+
 
     <!-- sounds (tourette) -->
     <string name="tourette_11">Huhu...Asshole</string>
@@ -44,5 +73,22 @@
     <string name="tourette_51">Robbery</string>
     <string name="tourette_52">Scream 2</string>
     <string name="tourette_53">Xcuse me</string>
+
+    <!-- sounds (borat) -->
+    <string name="borat_11">My name a Borat. I like a you. I like sex. It\'s nice.</string>
+    <string name="borat_12">This is my country...</string>
+    <string name="borat_13">This is my house - entry please</string>
+    <string name="borat_21">I arrive in America\'s airport with clothings, U.S. dollars and a jar o gypsy tears...</string>
+    <string name="borat_22">Ooh, la, la. Wo wo wee wa. King in the castle. King in the castle.</string>
+    <string name="borat_23">And on weekends, I travel to capital city and watch a ladies while they make a toilet.</string>
+    <string name="borat_31">This C.J. was like no Kazakh woman...</string>
+    <string name="borat_32">In Kazakhstan, it is illegal for more than five woman to be in the same place...</string>
+    <string name="borat_33">Hey, don\'t look at me. Eat my tits!</string>
+    <string name="borat_41">Don\'t look at me like that! I will eat your bleep.</string>
+    <string name="borat_42">Uzbekistan! Bleep a you, motherbleepers!</string>
+    <string name="borat_43">Even though my anus was broken, I knew that the rest of our journey would be great success.</string>
+    <string name="borat_51">Howdy partners!</string>
+    <string name="borat_52">What\'s up with it, Vanilla Face?</string>
+    <string name="borat_53">Let\'s get drunk!</string>
 
 </resources>

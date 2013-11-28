@@ -28,31 +28,37 @@ public class FragmentFirstTab extends Fragment
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.fragment_first_tab,container,false);
+        if (view == null)
+        {
+            view = inflater.inflate(R.layout.fragment_movie_tab,container,false);
 
-        // Lets do some magic in order to have so called "app_square buttons":
-        // use dynamic width of a button (width is determined by device,
-        // we dont have any clue which device and corresponding screen width
-        // our app is running with), the apply width as a row height...
+            // Lets do some magic in order to have so called "app_square buttons":
+            // use dynamic width of a button (width is determined by device,
+            // we dont have any clue which device and corresponding screen width
+            // our app is running with), the apply width as a row height...
 
-        // dynamically calculate button height for first row...
-        final View topLeft = view.findViewById(R.id.frag_11);
+            // dynamically calculate button height for first row...
+            final View topLeft = view.findViewById(R.id.frag_011);
 
-        ViewTreeObserver vto = topLeft.getViewTreeObserver();
-        vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
-            @Override
-            public void onGlobalLayout() {
-                // simply set current row height to button width => should result in nice
-                // app_square buttons...
-                rowHeight = topLeft.getWidth();
-                applyRowHeightTowRow((LinearLayout) view.findViewById(R.id.ll_row11));
-                applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row12));
-                applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row13));
-                applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row14));
-                applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row15));
-            }
-        });
-
+            ViewTreeObserver vto = topLeft.getViewTreeObserver();
+            vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+                @Override
+                public void onGlobalLayout() {
+                    // simply set current row height to button width => should result in nice
+                    // app_square buttons...
+                    rowHeight = topLeft.getWidth();
+                    applyRowHeightTowRow((LinearLayout) view.findViewById(R.id.ll_row01));
+                    applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row02));
+                    applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row03));
+                    applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row04));
+                    applyRowHeightTowRow((LinearLayout)view.findViewById(R.id.ll_row05));
+                }
+            });
+        }
+        else
+        {
+            ((ViewGroup)view.getParent()).removeView(view);
+        }
         return view;
     }
 
