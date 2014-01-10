@@ -26,13 +26,15 @@ Basically that's all the application contains/chalks out, the application has be
   
 Have fun, Flo!
 
+[![Image](wiki-img/twitter.png "Image title") ](https://twitter.com/_flomueller "Twitter")
+
 ## Screenshots…
 
 ### Soundboard overview
-![ScreenShot](/wiki-img/overview.png)
+![ScreenShot](wiki-img/overview.png)
 
 ### Sound system integration
-![ScreenShot](/wiki-img/dialog01.png)
+![ScreenShot](wiki-img/dialog01.png)
 
 ### Sound settings
-![ScreenShot](/wiki-img/dialog02.png)
+![ScreenShot](wiki-img/dialog02.png)
